@@ -30,6 +30,9 @@ export default function Header() {
           <Link to="/contact" className="hover:text-peacockBlue text-xl">
             Contact
           </Link>
+          <Link to="/gallery" className="hover:text-peacockBlue text-xl">
+            Gallery
+          </Link>
 
           {/* WhatsApp CTA */}
           <a
@@ -86,6 +89,13 @@ export default function Header() {
             onClick={toggleMenu}
           >
             Contact
+          </Link>
+          <Link
+            to="/gallery"
+            className="block py-2 text-gray-700 hover:text-peacockBlue"
+            onClick={toggleMenu}
+          >
+            Gallery
           </Link>
 
           {/* Mobile Whatsapp cta */}
